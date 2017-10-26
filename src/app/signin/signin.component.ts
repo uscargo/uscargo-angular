@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map'
 
 @Component({
   selector: 'signin',
@@ -7,7 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SigninComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(private http: Http) {
+  }
+
+  handleClick(){
+   
+  }
+
+  
 
   ngOnInit() {
   }

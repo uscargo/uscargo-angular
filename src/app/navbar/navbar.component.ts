@@ -7,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  links = [
+    {
+      name: "Sign In",
+      link: "/sign-in"
+    },
+    {
+      name: "Register",
+      link: "sign-up"
+    }
+  ]
+  constructor() {
+  }
 
   ngOnInit() {
   }
