@@ -1,5 +1,14 @@
-<div style="width: 40%;">
-  <canvas baseChart [chartType]="'horizontalBar'" [datasets]="chartData" [labels]="chartLabels" [options]="chartOptions" [legend]="true"
-    (chartClick)="onChartClick($event)">
-  </canvas>
+<div class="container-fluid">
+  <usernav></usernav>
+  <!-- <div class="justify-content">
+    
+  </div> -->
+  <div class="center fixed-top" style="margin-top: 100px">
+    <div style="width: 70%;">
+      <h1>Averages</h1>
+      <canvas baseChart [chartType]="'horizontalBar'" [datasets]="chartData" [labels]="chartLabels" [options]="chartOptions" [legend]="true"
+        (chartClick)="onChartClick($event)">
+      </canvas>
+    </div>
+  </div>
 </div>
