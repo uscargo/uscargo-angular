@@ -12,6 +12,8 @@ import { Angular2TokenService } from 'angular2-token';
 import { UserComponent } from './user/user.component';
 import { AnalyticsComponent } from './analytics/analytics.component'
 import { ChartsModule } from 'ng2-charts';
+import { UsernavComponent } from './usernav/usernav.component';
+import { UsershowComponent } from './usershow/usershow.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ChartsModule } from 'ng2-charts';
     SignupComponent,
     NotfoundComponent,
     UserComponent,
-    AnalyticsComponent
+    AnalyticsComponent,
+    UsernavComponent,
+    UsershowComponent
   ],
   imports: [
     BrowserModule,
